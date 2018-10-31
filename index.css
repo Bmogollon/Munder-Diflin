@@ -1,0 +1,252 @@
+body{
+background-image: url("photo-1487260211189-670c54da558d.jpg");
+margin:0;
+
+}
+#about-us{
+  padding:5%;
+}
+
+#login{
+  padding:5%;
+}
+
+.navbar {
+background-color:brown;
+width: 100%;
+margin:0;
+position: fixed;
+z-index: 1;
+text-align: center;
+}
+.navbar img{
+  height: 25px;
+  float:left;
+  margin: 10px;
+}
+ .navbar ul {
+   display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ .navbar li {
+    float:right;
+    font-size: .9em;
+  
+}
+
+ .navbar li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: lightblue;
+}
+.slide-grid {
+display: grid;
+grid-template: 700px / 60% 30%;
+
+}
+.slide-grid p{
+font-size: x-large;
+padding: 0%;
+padding-top: 11%;
+padding-left: 3%;
+max-width: 350px;
+background:white;
+padding: 30px;
+margin: 50px auto;
+box-shadow: 0 8px 16px 0;
+border: 5px solid lightgreen;
+}
+.slide-grid h1{
+  font-size: x-large;
+  padding:0%;
+  padding-top: 15%;
+  padding-left: 3%;
+  width: 7.3em;
+color: brown;
+ animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-name: inandout;
+}
+
+
+@keyframes inandout {
+	0%, 8.3% { left: 100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+
+.images {
+width: 80%;
+height: 400px;
+padding-left: 1%;
+padding:8%;
+padding-top: 16%;
+}
+
+
+/* ****************************************************************************************************** */
+
+/* GRID */
+
+.product-grid{
+  display: grid;
+  grid-template: 500px / 40% 60%;
+  justify-content: center;
+  /* padding-bottom: 500px; */
+  padding-top: 161px;
+}
+.image-grid{
+  display: grid;
+  grid-template: repeat(2,190px)/ repeat(2,200px);
+  grid-column-gap: 40px;
+  grid-row-gap:30px;
+  justify-content: center;
+}
+.container  h3 {
+  text-align: center;
+
+}
+.image-grid div{
+box-shadow: 0 8px 16px 0;
+transition: transform .5s;
+}
+.image-grid div:hover {
+  transform:scale(1.1);
+}
+.image-grid img {
+  height: 100%;
+  width: 100%;
+}
+
+.product-grid p {
+  font-size: x-large;
+text-align: center;
+border: solid;
+margin: 5px 51px 295px 39px;
+background: white;
+	box-shadow: 0 8px 16px 0;
+  padding: 4px;
+}
+
+
+.about img {
+  width:33%;
+}
+  /* ****************************************************************************************************** */
+
+/* ****************************************************************************************************** */
+
+/* INFORMATION */
+.informa{
+  display: grid;
+  grid-template: 500px/ 40% 40%;
+  grid-gap: 2px;
+
+}
+
+#login{
+  padding: 0;
+}
+.signup h4{
+  text-align: start;
+}
+
+.register h5{
+  text-align: start;
+  font-size: 1.2em;
+}
+
+input[type=username],select{
+  max-width: 350px;
+  background:white;
+  padding:4px;
+  margin: 27px auto;
+  box-shadow: 0 3px 13px 0;
+  border: 2px solid orange;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid blue;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+form{
+  margin:24px 61px;
+}
+
+input[type=password],select{
+  max-width: 350px;
+	padding:4px;
+	margin: 27px auto;
+	box-shadow: 0 3px 13px 0;
+	border: 2px solid orange;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+input[type=text],select{
+  max-width: 350px;
+	padding:4px;
+	margin: 27px auto;
+	box-shadow: 0 3px 13px 0;
+	border: 2px solid orange;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+input[type=email],select{  max-width: 350px;
+  max-width: 350px;
+  padding:4px;
+	margin: 27px auto;
+	box-shadow: 0 3px 13px 0;
+	border: 1px solid blue;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+
+/* *************************************************************************************** */
+/* Footer */
+.footer{
+  padding: 0;
+  background-color: brown;
+  bottom: 0;
+}
+
+.footer-grid {
+  display: inline-grid;
+  justify-content: center;
+  width: 100%;
+  grid-gap: 5px;
+}
+
+.footer-grid img {
+  width: 40px;
+  height: 40px;
+}
